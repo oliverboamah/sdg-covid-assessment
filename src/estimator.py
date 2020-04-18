@@ -13,7 +13,7 @@ def get_estimate_data(input_data, is_severe_impact):
     reported_cases = int(input_data['reportedCases'])
     total_hospital_beds = int(input_data['totalHospitalBeds'])
 
-    currently_infected = reported_cases * scalar,
+    currently_infected = reported_cases * scalar
     infections_by_requested_time = currently_infected * 1024
     severe_cases_by_requested_time = infections_by_requested_time * 0.15
     hospital_beds_by_requested_time = (0.35 * total_hospital_beds) - severe_cases_by_requested_time
