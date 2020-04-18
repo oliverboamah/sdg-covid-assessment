@@ -23,3 +23,6 @@ covid19_estimator_py.egg-info/
 
 # idea
 .idea/
+
+# pyc
+*.pyc
